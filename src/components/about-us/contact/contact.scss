@@ -1,0 +1,110 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: #0b24f9;
+    padding-bottom: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &-main{
+        width: 90%;
+        margin: auto;
+        h3{
+            font-size: 40px;
+            color: white;
+            margin-bottom: 30px;
+        }
+        div{
+            margin-bottom: 30px;
+            h4{
+                color: white;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            p{
+                margin-bottom: 10px;
+                font-size: 20px;
+
+            }
+        }
+    }
+    a{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 30px;
+        right: 20px;
+        font-size: 30px;
+        span{
+            font-size: 35px;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 900px){
+    .contact{
+        padding-bottom: 50px;
+        &-main{
+            h3{
+                font-size: 30px;
+                color: white;
+                margin-bottom: 25px;
+            }
+            div{
+                margin-bottom: 20px;
+                h4{
+                    color: white;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+                p{
+                    margin-bottom: 8px;
+                    font-size: 15px;
+
+                }
+            }
+        }
+        a{
+            font-size: 20px;
+            span{
+                font-size: 25px;
+                padding-left: 10px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 410px){
+    .contact{
+        padding-bottom: 30px;
+        &-main{
+            h3{
+                font-size: 25px;
+                color: white;
+                margin-bottom: 15px;
+            }
+            div{
+                margin-bottom: 15px;
+                h4{
+                    color: white;
+                    font-size: 12px;
+                    margin-bottom: 8px;
+                }
+                p{
+                    margin-bottom: 8px;
+                    font-size: 10px;
+
+                }
+            }
+        }
+        a{
+            font-size: 15px;
+            span{
+                font-size: 20px;
+                padding-left: 5px;
+                margin-top: 5px;
+            }
+        }
+    }
+}

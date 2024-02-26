@@ -1,0 +1,194 @@
+.Douing{
+    width: 100%;
+    height: 100%;
+    background-color: #0b24f9;
+    padding-bottom: 50px;
+    &-main{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        &-h3{
+            color: white;
+            font-size: 40px;
+        }
+        &-blocks{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 70px;
+            column-count: 2;
+            div{
+                h3{
+                    color: white;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                }
+                div{
+                    max-width: 400px;
+                    video{
+                        width: 100%;
+                    }
+                }
+                p{
+                    max-width: 300px;
+                    font-size: 14px;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1250px){
+    .Douing{
+        padding-bottom: 50px;
+        &-main{
+            width: 80%;
+            gap: 20px;
+            &-h3{
+                padding-top: 30px;
+            }
+            &-blocks{
+                gap: 30px;
+                div{
+                    div{
+                        max-width: 400px;
+                        video{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        max-width: 300px;
+                        font-size: 14px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1040px){
+    .Douing{
+        padding-bottom: 50px;
+        &-main{
+            width: 80%;
+            gap: 30px;
+            &-h3{
+                padding-top: 30px;
+            }
+            &-blocks{
+                width: 100%;
+                gap: 40px;
+                div{
+                    div{
+                        width: 50vh;
+                        video{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        max-width: 300px;
+                        font-size: 14px;
+                        padding-top: 10px;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 930px){
+    .Douing{
+        &-main{
+            width: 90%;
+            margin: auto;
+            &-blocks{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 70px;
+                div{
+                    width: 45%;
+                    h3{
+                        text-align: center;
+                        margin-bottom: 20px;
+                        color: white;
+                        font-size: 25px;
+                    }
+                    div{
+                        margin: auto;
+                        width:100%;
+                        video{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        max-width: 300px;
+                        font-size: 14px;
+                        line-height: 1.3;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 780px){
+    .Douing{
+        &-main{
+            width: 90%;
+            margin: auto;
+            &-blocks{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap: 70px;
+                div{
+                    width: 100%;
+                    h3{
+                        text-align: center;
+                        margin-bottom: 20px;
+                        color: white;
+                        font-size: 25px;
+                    }
+                    div{
+                        margin: auto;
+                        width:100%;
+                        video{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        margin: auto;
+                        text-align: center;
+                        max-width: 100%;
+                        font-size: 14px;
+                        line-height: 1.3;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 550px){
+    .Douing{
+        &-main{
+            width: 90%;
+            margin: auto;
+            &-h3{
+                color: white;
+                font-size: 30px;
+            }
+            &-blocks{
+                gap: 70px;
+                div{
+                    h3{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

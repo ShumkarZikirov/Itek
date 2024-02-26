@@ -1,0 +1,42 @@
+.ServicesHome{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 80%;
+    margin: 70px auto 0;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        video{
+            max-width: 550px;
+        }
+    }
+}
+@media only screen and (max-width: 1024px){
+    .ServicesHome{
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto 0;
+        div{
+            video{
+                max-width: 550px;
+                margin: auto;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 430px){
+    .ServicesHome{
+        margin: 30px auto 0;
+        div{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}

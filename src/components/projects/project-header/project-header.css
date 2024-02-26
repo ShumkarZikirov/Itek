@@ -1,0 +1,18 @@
+.project-header {
+  padding-top: 150px;
+  width: 90%;
+  margin: auto;
+}
+.project-header h1 {
+  font-size: 70px;
+  color: white;
+  margin-bottom: 10px;
+}
+.project-header h2 {
+  font-size: 60px;
+  color: white;
+  margin-left: 30px;
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=project-header.css.map */

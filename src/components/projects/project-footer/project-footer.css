@@ -1,0 +1,16 @@
+.project-footer {
+  width: 90%;
+  margin: 100px auto 0;
+}
+.project-footer a {
+  float: right;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+.project-footer a span {
+  font-size: 50px;
+  margin: 10px 0 0 15px;
+}
+
+/*# sourceMappingURL=project-footer.css.map */

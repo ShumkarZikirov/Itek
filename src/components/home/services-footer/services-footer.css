@@ -1,0 +1,86 @@
+.servicesFooter {
+  width: 90%;
+  margin: 60px auto 100px;
+}
+.servicesFooter-h3 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+.servicesFooter-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 15px;
+}
+.servicesFooter-ul li {
+  color: white;
+  font-size: 25px;
+  margin-left: 60px;
+}
+.servicesFooter-button {
+  float: right;
+  background-color: black;
+  font-size: 38px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.servicesFooter-button span {
+  margin: 15px 0 0 15px;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .servicesFooter {
+    width: 90%;
+    margin: 40px auto 100px;
+  }
+  .servicesFooter-h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .servicesFooter-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+  }
+  .servicesFooter-ul li {
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .servicesFooter-button {
+    margin-bottom: 40px;
+  }
+  .servicesFooter-button span {
+    margin: 15px 0 0 15px;
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .servicesFooter {
+    margin: 40px auto 70px;
+  }
+  .servicesFooter-h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .servicesFooter-ul li {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  .servicesFooter-button {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+  .servicesFooter-button span {
+    margin: 10px 0 0 10px;
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=services-footer.css.map */

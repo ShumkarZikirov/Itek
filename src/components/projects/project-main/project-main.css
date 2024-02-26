@@ -1,0 +1,21 @@
+.project-main {
+  width: 80%;
+  margin: 100px auto 0;
+}
+.project-main-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+.project-main-project img {
+  background-color: #ffffff;
+  width: 100%;
+}
+.project-main-project p {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=project-main.css.map */

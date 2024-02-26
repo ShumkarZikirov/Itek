@@ -1,0 +1,227 @@
+.textAnimation{
+    margin: 30px 0;
+    &_main{
+        height: 5vh;
+        position: relative;
+        width: 98vw;
+        overflow: hidden;
+       &-ul{
+           display: flex;
+           height: 100%;
+           gap: 30px;
+           animation: scrolling 20s linear infinite;
+           li{
+               color: white;
+               width: 15vw;
+               font-size: 14px;
+               justify-content: center;
+               align-items: center;
+               white-space: nowrap;
+               display: flex;
+               flex-shrink: 0;
+           }
+           @keyframes scrolling {
+               0%{
+                   transform: translateX(0);
+               }
+               100%{
+                   transform: translateX(-180vw);
+               }
+           }
+       }
+
+    }
+    &_main-last{
+        height: 5vh;
+        position: relative;
+        width: 98vw;
+        overflow: hidden;
+        margin-top: 20px;
+        .textAnimation_main-ul-last{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            gap: 30px;
+            animation: scrolling2 25s linear infinite;
+            li{
+                color: #ffffff;
+                width: 20vw;
+                justify-content: center;
+                align-items: center;
+                white-space: nowrap;
+                display: flex;
+                font-size: 20px;
+                flex-shrink: 0;
+            }
+            @keyframes scrolling2 {
+                0%{
+                    transform: translateX(0);
+                }
+                100%{
+                    transform: translateX(-180vw);
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 1024px){
+    .textAnimation{
+        margin: 20px 0;
+        &_main{
+            height: 3vh;
+            &-ul{
+                li{
+                    width: 16vw;
+                    font-size: 10px;
+                }
+            }
+
+        }
+        &_main-last{
+            height: 2vh;
+            .textAnimation_main-ul-last{
+                li{
+                    width: 29vw;
+                    font-size: 16px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 800px){
+    .textAnimation{
+        &_main{
+            height: 2vh;
+            &-ul{
+                li{
+                    width: 20vw;
+                    font-size: 9px;
+                }
+            }
+
+        }
+        &_main-last{
+            .textAnimation_main-ul-last{
+                li{
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 650px){
+    .textAnimation{
+        &_main{
+            height: 1vh;
+            &-ul{
+                li{
+                    font-size: 8px;
+                }
+            }
+
+        }
+        &_main-last{
+            .textAnimation_main-ul-last{
+                li{
+                    font-size: 12px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 550px){
+    .textAnimation{
+        &_main{
+            height: 1vh;
+            &-ul{
+                li{
+                    font-size: 7px;
+                }
+            }
+
+        }
+        &_main-last{
+            .textAnimation_main-ul-last{
+                li{
+                    font-size: 10px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 430px){
+    .textAnimation{
+        &_main{
+            height: 1vh;
+            &-ul{
+                li{
+                    width: 22vw;
+                    font-size: 7px;
+                }
+            }
+
+        }
+        &_main-last{
+            .textAnimation_main-ul-last{
+                li{
+                    width: 33vw;
+                    font-size: 10px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 375px){
+    .textAnimation{
+        &_main{
+            height: 1vh;
+            &-ul{
+                li{
+                    width: 22vw;
+                    font-size: 6px;
+                }
+            }
+
+        }
+        &_main-last{
+            .textAnimation_main-ul-last{
+                li{
+                    width: 35vw;
+                    font-size: 9px;
+                }
+            }
+
+        }
+    }
+}
+@media only screen and (max-width: 300px) {
+    .textAnimation {
+        &_main {
+            height: 1vh;
+
+            &-ul {
+                li {
+                    width: 25vw;
+                    font-size: 6px;
+                }
+            }
+
+        }
+
+        &_main-last {
+            .textAnimation_main-ul-last {
+                li {
+                    width: 40vw;
+                    font-size: 9px;
+                }
+            }
+
+        }
+    }
+}
